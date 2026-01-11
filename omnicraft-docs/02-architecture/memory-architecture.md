@@ -1,10 +1,8 @@
 # Memory Architecture
 
-> **Sources:**
-> - v6.0 Section 9: Manajemen Memori Bersama
-> - v6.0 Section 10: Strategi Alokasi
-
 ## 9. Manajemen Memori Bersama
+
+OmniCraft implements a sophisticated shared memory management system to enable zero-copy data transfer.
 
 ### 9.1 Arsitektur Memory Arena
 
@@ -225,6 +223,8 @@ impl GPUBufferPool {
 ```
 
 ## 10. Strategi Alokasi
+
+Efficient allocation strategies are crucial for maintaining performance within browser memory limits.
 
 ### 10.1 Memory Budget System
 

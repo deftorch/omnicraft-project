@@ -1,8 +1,10 @@
 # Build System
 
-> **Source:** v6.0 Section 15
+The build system handles the complex task of orchestrating compilation for Rust, TypeScript, shaders, and AI models into a coherent web application.
 
 ## 15. Build System Architecture
+
+The architecture is designed to handle multi-language compilation with dependencies between build steps.
 
 ### 15.1 Multi-Target Build Configuration
 

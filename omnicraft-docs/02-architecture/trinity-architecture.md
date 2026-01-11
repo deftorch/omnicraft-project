@@ -1,8 +1,10 @@
 # Trinity Architecture
 
-> **Source:** v6.0 Section 1
+This document details the core architectural concepts of the Trinity Engine.
 
 ## Trinity Architecture Concepts
+
+The Trinity Architecture is built upon three pillars of computation: CPU, GPU, and NPU.
 
 ### Design Philosophy
 
@@ -40,6 +42,8 @@ The Trinity Architecture leverages the specialized capabilities of modern hardwa
 
 ### Layered Architecture
 
+The system is organized into distinct layers to manage complexity and responsibilities.
+
 ```mermaid
 graph TD
     classDef layer fill:#f9f,stroke:#333,stroke-width:2px;
@@ -71,6 +75,8 @@ graph TD
 - **Layer 4 (Shared Memory):** A critical component allowing zero-copy data transfer. Data lives in one place and is accessed by different "views" (CPU, GPU, NPU) to maximize performance.
 
 ### Communication Patterns
+
+Communication between layers and components follows specific patterns to ensure efficiency.
 
 ```text
 ┌─────────────────────────────────────────────────────┐

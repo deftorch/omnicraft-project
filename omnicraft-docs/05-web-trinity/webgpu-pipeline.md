@@ -1,6 +1,5 @@
 # WebGPU Pipeline Design
 
-> **Source:** v6.0 Sections 12-13
 
 ## 12. Rendering Pipeline
 

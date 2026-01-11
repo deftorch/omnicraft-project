@@ -1,6 +1,10 @@
 # Compiler Overview
 
+The compiler is the heart of OmniCraft, transforming high-level `.omni` code into highly efficient runtime instructions.
+
 ## 1. Compiler Design
+
+The compiler follows a traditional pipeline architecture, enhanced with caching for performance.
 
 ### 1.1 Compiler Pipeline
 
@@ -86,6 +90,8 @@ pub trait OptimizationPass {
 
 ## 2. Type System
 
+The type system ensures safety and correctness before runtime.
+
 ### 2.1 Type Representation
 
 ```rust
@@ -106,6 +112,8 @@ pub enum Type {
 The type system uses a constraint-based inference algorithm to determine types where not explicitly annotated, reducing developer burden while maintaining safety.
 
 ## 3. Incremental Compilation
+
+Incremental compilation is key to a fast developer experience, rebuilding only what changed.
 
 ### 3.1 Architecture
 
@@ -133,6 +141,8 @@ A dependency graph maintains relationships between files (imports, exports) to d
 
 ## 4. Code Generation
 
+Code generation produces the final artifacts for execution.
+
 ### 4.1 Rust Generation
 
 The compiler generates optimized Rust code for the WebAssembly runtime.
@@ -151,6 +161,8 @@ pub struct MyComponent {
 TypeScript definitions (`.d.ts`) are generated automatically to provide IDE support and type safety for consumers.
 
 ## 5. Error Diagnostics
+
+Clear and actionable error messages are a priority.
 
 ### 5.1 Diagnostic System
 
