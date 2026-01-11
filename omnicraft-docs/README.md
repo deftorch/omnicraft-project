@@ -1,6 +1,16 @@
 # OmniCraft Project Documentation
 
-Welcome to the official documentation for the OmniCraft project. This documentation integrates the **Trinity Architecture** (OmniCraft v6.0) with the modular design of previous versions.
+Welcome to the official documentation for **OmniCraft** — a next-generation visual content creation platform exploring a compiler-first approach to web development.
+
+This documentation details the **Trinity Architecture** (v6.0), integrating CPU (Wasm), GPU (WebGPU), and NPU (WebNN) into a unified high-performance runtime.
+
+## Quick Links
+
+- [**System Architecture**](02-architecture/system-architecture.md) - The high-level design and Trinity Engine.
+- [**Zero-Copy Design**](05-web-trinity/zero-copy-design.md) - How we achieve shared memory across compute units.
+- [**Compiler Pipeline**](03-compiler/overview.md) - From `.omni` syntax to optimized Wasm.
+
+---
 
 ## 01. Overview
 - [Introduction & Goals](01-overview/README.md)
@@ -51,4 +61,4 @@ Welcome to the official documentation for the OmniCraft project. This documentat
  *(Placeholder for API docs)*
 
 ## 11. Appendices
- *(Placeholder for Glossary)*
+ - [Glossary](11-appendices/glossary.md)
