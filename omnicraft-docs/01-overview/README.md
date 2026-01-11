@@ -2,6 +2,8 @@
 
 ## 1. Introduction
 
+OmniCraft is a high-performance visual content creation platform designed to push the boundaries of web capabilities.
+
 ### 1.1 Project Purpose
 
 OmniCraft is designed as a visual content creation platform that explores a compiler-first approach to web development. The project aims to investigate whether compile-time optimizations can deliver meaningful performance improvements over traditional runtime-based frameworks.
@@ -31,6 +33,8 @@ This document outlines the technical design for:
 ---
 
 ## 2. Technical Goals
+
+The project is driven by a set of technical goals aimed at performance, developer experience, and correctness.
 
 ### 2.1 Primary Goals
 
@@ -73,6 +77,8 @@ Rather than making claims, we'll measure:
 ---
 
 ## 3. Architecture Philosophy
+
+Our architectural decisions are guided by a set of core principles that prioritize transparency, efficiency, and robustness.
 
 ### 3.1 Design Principles
 

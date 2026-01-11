@@ -1,6 +1,5 @@
 # Zero-Copy Memory Design
 
-> **Source:** v6.0 Section 11
 
 ## 11. Zero-Copy Design
 

@@ -58,7 +58,6 @@ impl Plugin for AnalyticsPlugin {
 
 ## 2. Runtime Plugins (TypeScript)
 
-> **Source:** v6.0 Section 16
 
 The runtime plugin system is designed for the web-based environment, allowing extensions to interact with the Trinity Engine (Wasm/WebGPU/WebNN).
 

@@ -1,6 +1,5 @@
 # WebNN Pipeline Design
 
-> **Source:** v6.0 Section 14
 
 ## 14. AI Pipeline
 

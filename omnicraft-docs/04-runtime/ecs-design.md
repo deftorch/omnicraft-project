@@ -1,6 +1,10 @@
 # Entity-Component-System (ECS) Design
 
+The ECS architecture is the core of OmniCraft's runtime, enabling efficient entity management and system processing.
+
 ## 1. Overview
+
+The ECS design prioritizes performance and modularity by separating data (Components) from behavior (Systems).
 
 ### 1.1 Why ECS?
 - **Better data locality**: Components are stored in contiguous arrays, improving cache performance.
@@ -9,6 +13,8 @@
 - **Scalability**: Capable of handling large numbers of entities efficiently.
 
 ## 2. Core Architecture
+
+The architecture revolves around three main concepts: World, Entities, and Components.
 
 ### 2.1 World & Entity
 The `World` is the container for all entities and components. Entities are lightweight IDs.
@@ -45,7 +51,7 @@ pub enum Shape {
 
 ## 3. Data Model
 
-> **Source:** v6.0 Section 7
+The data model defines how entities and components are organized and accessed in memory.
 
 ### 3.1 Scene Graph Model
 
@@ -118,7 +124,7 @@ pub struct SharedMemoryArena {
 
 ## 4. Core Algorithms
 
-> **Source:** v6.0 Section 8
+Core algorithms provide the underlying logic for scheduling and spatial management.
 
 ### 4.1 Workload Scheduling
 

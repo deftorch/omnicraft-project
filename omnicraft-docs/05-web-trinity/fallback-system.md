@@ -1,6 +1,5 @@
 # Fallback System
 
-> **Source:** v6.0 Section 17
 
 ## 17. Sistem Fallback
 
