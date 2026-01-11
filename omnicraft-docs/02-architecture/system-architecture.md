@@ -8,6 +8,8 @@ OmniCraft employs a **Trinity Architecture**, separating computation across CPU 
 
 ### 1.1 System Layers
 
+The system is composed of four distinct layers that handle different aspects of the development and execution lifecycle.
+
 ```
 ┌─────────────────────────────────────────────────────────┐
 │  LAYER 1: Developer Interface                           │
@@ -50,7 +52,7 @@ OmniCraft employs a **Trinity Architecture**, separating computation across CPU 
 
 ### 1.2 Trinity Architecture Diagram
 
-> **Source:** v6.0 Section 2.1
+The Trinity Architecture integrates CPU, GPU, and NPU into a cohesive runtime environment.
 
 ```
                     ┌─────────────────────┐
@@ -98,6 +100,8 @@ OmniCraft employs a **Trinity Architecture**, separating computation across CPU 
 
 ## 2. Execution Flow
 
+The execution flow describes how data moves from source code to runtime execution.
+
 ### 2.1 Compiler Data Flow
 
 ```
@@ -124,7 +128,7 @@ Output: hello.wasm, hello.d.ts, hello.map
 
 ### 2.2 Runtime Execution Flow
 
-> **Source:** v6.0 Section 2.2
+The runtime execution flow details how user interactions trigger changes across the Trinity Engine.
 
 ```
 USER ACTION (Click/Type)
@@ -181,6 +185,8 @@ USER ACTION (Click/Type)
 ```
 
 ## 3. Data Processing Pipelines
+
+Data processing pipelines illustrate how specific tasks like image processing are handled efficiently.
 
 ### 3.1 Image Processing Flow (WebGPU + WebNN)
 
@@ -256,6 +262,8 @@ MEMORY COPIES: 0 (all zero-copy)
 
 ## 4. Technology Decisions
 
+The choice of technologies is driven by performance, safety, and modern web standards.
+
 ### 4.1 Compiler: Rust
 
 **Reasons:**
@@ -313,6 +321,8 @@ MEMORY COPIES: 0 (all zero-copy)
 
 ## 5. Performance Considerations
 
+Performance is a key driver in architectural decisions, focusing on both compilation and runtime efficiency.
+
 ### 5.1 Performance Design Goals
 
 **Compilation Performance:**
@@ -341,6 +351,8 @@ MEMORY COPIES: 0 (all zero-copy)
 - Minimize allocations
 
 ## 6. Security & Scalability
+
+Security and scalability are fundamental to the architecture, ensuring safe execution and ability to handle growth.
 
 ### 6.1 Security
 
